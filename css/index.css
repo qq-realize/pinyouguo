@@ -1,0 +1,71 @@
+/* 主体模块 start */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+/* 焦点图模块 */
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px;
+    background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+}
+.arrow-r { 
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+/* 新闻快报模块 */
+.newsflash {
+    width: 250px;
+    height: 455px;
+    background-color: black;
+}
+/* 新闻模块 */
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+    border-color: pink;
+}
+/* 生活服务模块 */
+.lifeservice {
+    height: 208px;
+    border-color: purple;
+}
+/* 特价商品 */
+.bargain {
+
+}
+/* 主体模块 end */
