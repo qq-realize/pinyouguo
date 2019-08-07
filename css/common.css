@@ -132,5 +132,64 @@
 }
 /* 头部(header) end */
 
-
-
+/* nav start */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+/* 导航左侧 */
+.dorpdown {
+    width: 209px;
+    height: 45px;
+    background-color: pink;
+}
+.dorpdown .dt {
+    height: 100%;
+    line-height: 45px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+.dorpdown .dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+.menu_item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 10px;
+}
+.menu_item:hover {
+    background-color: #fff;
+}
+.menu_item:hover a {
+    color: #c81623;
+}
+.menu_item a {
+    font-size: 14px;
+    color: #fff;
+}
+.menu_item i {
+    float: right;
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+}
+/* 导航右侧 */
+.navitems {
+    margin-left: 10px;
+}
+.navitems li {
+    float: left;
+}
+.navitems li a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 16px;
+    color: #333;
+}
