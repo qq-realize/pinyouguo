@@ -132,7 +132,7 @@
 }
 /* 头部(header) end */
 
-/* nav start */
+/* 导航(nav) start */
 .nav {
     height: 45px;
     border-bottom: 2px solid #b1191a;
@@ -193,3 +193,30 @@
     font-size: 16px;
     color: #333;
 }
+/* 导航(nav) end */
+
+/* 底部(footer) start */
+.footer {
+    height: 386px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+/* 服务模块 */
+.mod_service {
+    height: 79px;
+    background: pink;
+    border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+    float: left;
+    width: 240px;
+    height: 79px;
+}
+.mod_service_zheng {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons.png) no-repeat -253px -3px;
+    margin-left: 35px;
+}
+/* 底部(footer) end */
