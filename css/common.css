@@ -204,7 +204,6 @@
 /* 服务模块 */
 .mod_service {
     height: 79px;
-    background: pink;
     border-bottom: 1px solid #ccc;
 }
 .mod_service li {
@@ -212,11 +211,66 @@
     width: 240px;
     height: 79px;
 }
-.mod_service_zheng {
+.mod_service-icon {
     float: left;
     width: 50px;
     height: 50px;
-    background: url(../img/icons.png) no-repeat -253px -3px;
     margin-left: 35px;
+}
+.mod_service_zheng {   
+    background: url(../img/icons.png) no-repeat -253px -3px; 
+}
+.mod_service_tit {
+    float: left;
+    margin-left: 5px;
+}
+.mod_service_tit h5 {
+    margin: 5px 0;
+}
+.mod_service_kuai {
+    background: url(../img/icons.png) no-repeat -255px -54px;
+}
+.mod_service_bao {
+    background: url(../img/icons.png) no-repeat -257px -105px;
+}
+.mod_service_hao {
+    background: url(../img/icons.png) no-repeat -257px -105px;
+}
+.mod_service_seng {
+    background: url(../img/icons.png) no-repeat -257px -105px;
+}
+/* 帮助模块 */
+.mod_help {
+    height: 187px;
+    border-bottom: 1px solid #ccc;
+}
+.mod_help_item {
+    float: left;
+    width: 150px;
+    padding: 20px 0 0 50px;
+}
+.mod_help_item dt {
+    height: 25px;
+    font-size: 16px;
+}
+.mod_help_item dd {
+    height: 22px;
+}
+.mod_help_app dt,
+.mod_help_app p {
+    padding-left: 15px;
+}
+.mod_help_app img {
+    margin: 7px 0;
+}
+/* 版权模块 */
+.mod_copyright {
+    text-align: center;
+}
+.mod_copyright_links {
+    margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+    line-height: 18px;
 }
 /* 底部(footer) end */
