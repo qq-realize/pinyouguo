@@ -51,21 +51,149 @@
 .newsflash {
     width: 250px;
     height: 455px;
-    background-color: black;
 }
 /* 新闻模块 */
 .news {
     height: 163px;
     border: 1px solid #ccc;
-    border-color: pink;
+}
+.news-hd {
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon'
+}
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+.news-bd li {
+    height: 23px;
 }
 /* 生活服务模块 */
 .lifeservice {
+    overflow: hidden;
     height: 208px;
-    border-color: purple;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;  
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    overflow: hidden;/* 解决i 引起的外边距塌陷合并的问题 */
+    height: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+}
+.hot {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+.service_ico_feiji {
+    width: 26px;
+    background-position: -78px -16px;
+}
+.service_ico_dianying {
+    background-position: -142px -16px;
+} 
+.service_ico_youxi {
+    width: 26px;
+    background-position: -205px -16px;
+}
+.service_ico_caipiao {
+    background-position: -17px -88px;
+}
+.service_ico_jiayou {
+    background-position: -78px -88px;
+}
+.service_ico_jiudian {
+    background-position: -142px -88px;
+}
+.service_ico_huoche {
+    background-position: -205px -88px;
+}
+.service_ico_zhongcou {
+    background-position: -17px -158px;
+}
+.service_ico_licai {
+    width: 26px;
+    background-position: -78px -158px;
+}
+.service_ico_lipin {
+    background-position: -142px -158px;
+}
+.service_ico_baitiao {
+    background-position: -205px -158px;
 }
 /* 特价商品 */
 .bargain {
-
+    height: 75px;
+    margin-top: 5px;
 }
 /* 主体模块 end */
+
+/* 推荐模块 start */
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+.recom-hd {
+    width: 200px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+.recom-bd {
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+.recom-bd .last {
+    border-right: 0;
+}
+/* 推荐模块 end */
