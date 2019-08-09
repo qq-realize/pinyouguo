@@ -161,8 +161,10 @@
     line-height: 31px;
     margin-left: 1px;
     padding: 0 10px;
+    transition: all .4s;
 }
 .menu_item:hover {
+    padding-left: 20px;
     background-color: #fff;
 }
 .menu_item:hover a {
